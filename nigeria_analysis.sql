@@ -162,6 +162,27 @@ ORDER BY g.year;
 -- Query the view
 SELECT * FROM nigeria_economic_dashboard;
 
+-- Indexing Strategy
+CREATE INDEX idx_gdp_year ON gdp_growth(year);
+CREATE INDEX idx_inflation_year ON inflation(year);
+CREATE INDEX idx_unemployment_year ON unemployment(year);
+CREATE INDEX idx_cbn_date ON cbn_exchange_rate(rate_date);
+CREATE INDEX idx_black_date ON black_market_rate(rate_date);
+
+-- Verifying indexes were created
+SHOW INDEX FROM gdp_growth;
+SHOW INDEX FROM inflation;
+SHOW INDEX FROM cbn_exchange_rate;
+
+-- Without index (show query plan)
+EXPLAIN SELECT * FROM cbn_exchange_rate 
+WHERE rate_date = '2022-11-01';
+
+-- Show execution time comparison
+EXPLAIN ANALYZE SELECT * FROM gdp_growth 
+WHERE year BETWEEN 2000 AND 2024;
+
+
 
 
 
