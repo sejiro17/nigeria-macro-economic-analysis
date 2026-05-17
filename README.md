@@ -139,6 +139,9 @@ Features:
 - Crisis Timeline sheet with VLOOKUP-powered GDP and inflation data per event
 - Inflation danger zone conditional formatting
 
+**[View Live Dashboard](https://docs.google.com/spreadsheets/d/1nflrAI-f4Nc2XoV9UkOxr2anaHS8rN2OgSgOgurbBwc/edit?usp=sharing)**
+
+
 -----
 
 ## 🚀 How to Run This Project
