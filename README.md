@@ -118,7 +118,7 @@ This dual exchange rate system creates massive arbitrage opportunities and capit
 
 ## 📈 Tableau Dashboard
 
-**Live Dashboard:** [Nigeria Macroeconomic Intelligence Dashboard](https://public.tableau.com/app/profile/adewale.adegunwa/vizzes)
+**Live Dashboard:** [Nigeria Macroeconomic Intelligence Dashboard](https://public.tableau.com/app/profile/adewale.adegunwa/viz/Nigeria_Macroeconomic_Analysis_1962_2024/NigeriaEconomicDashboard)
 
 ### Visualizations Built:
 
