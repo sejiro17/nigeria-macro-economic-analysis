@@ -1,0 +1,3 @@
+-- Schema creation and indexing strategy
+-- Nigeria Macroeconomic Analysis
+-- Author: Adewale Adegunwa
